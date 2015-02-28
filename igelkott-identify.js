@@ -9,8 +9,7 @@ Identify.prototype.identify = function identify ()
     parameters: [this.igelkott.config.server.nick]
   };
 
-  if (this.igelkott.config.server.password !== undefined)
-  {
+  if (this.igelkott.config.server.password !== undefined) {
     var pass = {
       command: 'PASS',
       parameters: [this.igelkott.config.server.password]
